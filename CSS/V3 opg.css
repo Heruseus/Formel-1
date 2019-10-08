@@ -1,0 +1,236 @@
+/* Container */
+.container{
+    width: 80%;
+    margin: 50px auto 0 auto;
+    display: flex;
+    
+}
+
+body{
+    margin: 0;
+    background-image: url("../Img/Design/site-background.jpg");
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+.headbox{
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.black{
+    background-color: black;
+}
+
+.active {
+    background-color: black;
+  }
+
+.header__img{
+    margin-left: -90px;
+    height: 50px;
+}
+
+.header__img img{
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin-right: -30px;
+    margin-top: -20px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a{
+    padding: 17px 25px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.Login{
+    background-color: red;
+}
+
+nav a:hover{
+    background-color: darkred;
+}
+
+.header__container{
+    margin: 114px 0 102px 0;
+}
+
+.name{
+    display: flex;
+    margin: 0;
+    line-height: 1;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: 900;
+    word-spacing: 0.1em;
+}
+
+.header__sub-heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.header__sub-heading{
+    margin: 0;
+    padding: 0 30px;
+    color: black;
+    line-height: 1;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.header__dekorative-prikker{
+    height: 20px;
+}
+
+.candybar{
+    height: 30px;
+    background-image: url(../Img/Design/stribes.png);
+    background-repeat: repeat-x;
+}
+
+.Infotop{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.TOP{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.TOP{
+    padding: 20px;
+    margin: 20px;
+}
+
+.TOPP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: darkgrey;
+    padding: 10px;
+}
+
+.TOPP h3{
+    color: white;
+    margin: 0;
+}
+
+.TOPP p{
+    margin: 0;
+}
+
+.TOPDT{
+    display: flex;
+    background-color: black;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    height: 80px;
+}
+
+.TOPDT img{
+    height: 70px;
+    width: 70px;
+}
+
+.Mercedes{
+    border-right-style: solid;
+    border-right-color: rgb(73, 170, 130);
+    border-width: 5px;
+}
+
+.Ferrari{
+    border-right-style: solid;
+    border-right-color: rgb(201, 3, 3);
+    border-width: 5px;
+}
+
+.Williams{
+    border-right-style: solid;
+    border-right-color: white;
+    border-width: 5px;
+}
+
+.Redbull{
+    border-right-style: solid;
+    border-right-color: rgb(115, 85, 172);
+    border-width: 5px;
+}
+
+.TOPut{
+    color: darkgrey;
+    background-color: black;
+    width: 300px;
+    height: 440px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.TOPutimg{
+    background-color: rgb(68, 68, 68);
+}
+
+.TOPDT img{
+    width: 60px;
+}
+
+.table-ut{
+    border-spacing: 0;
+    padding: 20px 0 0 0;
+}
+
+.table-ut__overskrift{
+    color: white;
+    font-size: 1.10em;
+    text-transform: uppercase;
+}
+
+.table-ut__left{
+    text-transform: uppercase;
+    font-size: 1.00em;
+    padding: 15px 0 0 0;
+}
+
+.table-ut__right{
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1.00em;
+    padding: 15px 0 0 0;
+}
+
+
+
+
+
+
+
